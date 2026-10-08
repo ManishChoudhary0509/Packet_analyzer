@@ -43,7 +43,7 @@ Filter packets identified as YouTube:
 .\dpi_engine.exe test_dpi.pcap youtube_filtered.pcap --block-app YouTube
 ```
 
-On the included sample, the YouTube demo produces **77 eligible packets, 76 forwarded, and 1 dropped**. Earlier handshake packets can remain because application identification occurs when a readable hostname becomes available.
+On the included sample, it produces **77 eligible packets, 76 forwarded, and 1 dropped**. Earlier handshake packets can remain because application identification occurs when a readable hostname becomes available.
 
 If report borders display incorrectly, configure UTF-8 and rerun:
 
